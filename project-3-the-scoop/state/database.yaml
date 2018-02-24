@@ -1,0 +1,48 @@
+users:
+  John:
+    username: John
+    articleIds:
+      - 1
+      - 2
+      - 3
+      - 4
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: Getting Started with YAML in Node.js
+    url: 'http://thisdavej.com/getting-started-with-yaml-in-node-js-using-js-yaml/'
+    username: John
+    commentIds: []
+    upvotedBy:
+      - John
+    downvotedBy: []
+  '2':
+    id: 2
+    title: The Official YAML Website
+    url: 'http://yaml.org/'
+    username: John
+    commentIds: []
+    upvotedBy: []
+    downvotedBy:
+      - John
+  '3':
+    id: 3
+    title: The Right Way to Handle YAML in Go
+    url: 'http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/'
+    username: John
+    commentIds: []
+    upvotedBy:
+      - John
+    downvotedBy: []
+  '4':
+    id: 4
+    title: Converting a Subversion Repository to Git
+    url: 'https://john.albin.net/git/convert-subversion-to-git'
+    username: John
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+comments: {}
+nextArticleId: 5
+nextCommentId: 1
